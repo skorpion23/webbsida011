@@ -1,13 +1,3 @@
-
-function myFunction() {
-    var x = document.getElementById("nvbar");
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
-  }
-
 let navbar = document.querySelector('.navbar');
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.toggle('active');
