@@ -67,6 +67,7 @@ section{
     background-color: sandybrown;
      font-family: impact;
   border: 21px ridge silver;
+  font-size: 48px 48px;
     }
 .header{
     background: var(--bg);
@@ -174,9 +175,9 @@ section{
     color:rgb(0, 0, 0);
 }
 .home .content p{
-    font-size: 2rem;
+    font-size: 20rem;
     font-weight: lighter;
-    line-height: 1.8;
+    line-height: 2.5;
     padding:1rem 0;
     color:rgb(0, 0, 0);
 }
