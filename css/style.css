@@ -3,7 +3,7 @@
     --main-color:#0a0158;
     --black:#010130;
     --bg:#0101b1;
-    --border:.1rem solid rgba(199, 179, 243, 0.3);
+    --border:.3rem solid rgba(199, 179, 243, 0.3);
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -22,7 +22,6 @@ html{
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
-
 html::-webkit-scrollbar{
     width: .8rem;
 }
@@ -30,12 +29,10 @@ html::-webkit-scrollbar{
 html::-webkit-scrollbar-track{
     background: transparent;
 }
-
 html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
 }
-
 body{
     background: var(--bg);
 }
@@ -56,7 +53,6 @@ section{
     color:var(--main-color);
     text-transform: uppercase;
 }
-
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -66,7 +62,6 @@ section{
     background: var(--main-color);
     cursor: pointer;
 }
-
 .btn:hover{
     letter-spacing: .2rem;
 }
