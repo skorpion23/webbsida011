@@ -3,7 +3,7 @@
     --main-color:#0a0158;
     --black:#010130;
     --bg:#0101b1;
-    --border:.3rem solid rgba(199, 179, 243, 0.3);
+    --border:.3rem solid rgba(244, 241, 250, 0.91);
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -312,34 +312,10 @@ section{
     text-transform: none;
     background:none;
 }
-.footer{
-    background:var(--black);
-    text-align: center;
-
-}
-
-.footer .links{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 0;
-    gap:1rem;
-}
-.footer .links a{
-    padding:.7rem 2rem;
-    color:rgb(0, 0, 0);
-    border:var(--border);
-    font-size: 40rem;
-}
-.footer .links a:hover{
-    background:var(--main-color);
-}
-.footer .credit{
-    font-size: 20rem;
-    color:rgb(249, 249, 249);
-    padding:3rem;
-}
-/* media queries  */
+.mammaok {
+    background-color: honeydew;
+    font-size: 30px;
+    }
 @media (max-width:991px){
 
     html{
@@ -387,9 +363,5 @@ section{
         font-size: 1.5rem;
     }
 @media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
 
 }
