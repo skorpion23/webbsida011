@@ -15,8 +15,6 @@
     transition: .2s linear;
 }
 html{
-    width: 100%;
-    height: 100%;
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
