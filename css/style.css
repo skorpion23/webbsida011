@@ -76,9 +76,7 @@ section{
     justify-content: space-between;
     padding:1.5rem 7%;
     border-bottom: var(--border);
-    position: fixed;
     top:0; left: 0; right: 0;
-    z-index: 1000;
 }
 .header .logo img{
     height: 6rem;
@@ -156,30 +154,29 @@ section{
     text-align: center;
 }
 
-.home{
-    min-height: 100vh;
-    display: inline;
+.content {
+    margin-top: auto;
+    height: 75vh;
+    display: block;
     align-items: center;
     background:url(../images/background3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
-.home .content{
-    max-width: 60rem;
-}
-
-.home .content h3{
-    font-size: 30rem;
+.content h3 {
     text-transform: uppercase;
     color:rgb(0, 0, 0);
+    font-size: 10vh;
+
 }
-.home .content p{
-    font-size: 20rem;
-    font-weight: lighter;
+
+.content p{
     line-height: 2.5;
     padding:1rem 0;
     color:rgb(0, 0, 0);
+    font-size: large;
 }
 .about .row{
     display: flex;
