@@ -153,8 +153,7 @@ section{
     width: 100%;
     text-align: center;
 }
-
-.content {
+#maincont {
     margin-top: auto;
     height: 75vh;
     display: block;
@@ -162,6 +161,13 @@ section{
     background:url(../images/background3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+.content {
+    margin-top: auto;
+    display: block;
+    align-items: center;
     text-align: center;
 }
 
